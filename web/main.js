@@ -19,7 +19,7 @@ function draw(e) {
 document.getElementById('clear').onclick = () => {
   ctx.fillStyle = "white";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
-  document.getElementById('result').textContent = 'Dessine un chiffre 👇';
+  document.getElementById('result').textContent = 'Dessine un chiffre';
 };
 
 document.getElementById('predict').onclick = async () => {
